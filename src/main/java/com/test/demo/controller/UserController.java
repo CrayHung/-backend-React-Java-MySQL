@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.test.demo.entity.Users;
 import com.test.demo.service.UserService;
 
-// @CrossOrigin 在controller上面加CORS
+// // @CrossOrigin 在controller上面加CORS
 @CrossOrigin(origins = "http://localhost:3000")
 
 @RestController

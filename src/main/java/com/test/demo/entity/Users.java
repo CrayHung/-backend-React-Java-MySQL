@@ -19,6 +19,7 @@ public class Users{
     @Column(name = "Email")
     private String Email;
 
+
     //Constructor
     public Users(){
         super();
@@ -50,6 +51,6 @@ public class Users{
 
     @Override
     public String toString(){
-        return "Users [ID=" + ID +",Email=" + Email; 
+        return "Users ID=" + ID +",Email=" + Email; 
     }
 }
